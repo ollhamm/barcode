@@ -3,7 +3,6 @@ import Image from "next/image";
 import { FaWhatsapp, FaTiktok, FaInstagram, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-
 export default function Home() {
   const [bounce, setBounce] = useState(true);
 
