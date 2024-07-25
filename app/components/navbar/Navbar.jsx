@@ -1,0 +1,20 @@
+import Image from "next/image";
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <div className="w-full flex flex-row items-start p-8 py-4 px-6  bg-[#9dc98a]">
+      <div className="flex flex-row items-center justify-start text-neutral-600 md:justify-center gap-6 font-semibold text-2xl ml-4 md:ml-0">
+        <Image
+          src={"/images/logo-amat.png"}
+          alt="logo"
+          height={60}
+          width={60}
+        />
+        KertaAji
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
