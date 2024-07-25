@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col mt-10 items-center justify-center">
         <div
-          className={`flex flex-row p-4 rounded-md cursor-pointer justify-center items-center gap-4 text-green-500 px-20 py-8 shadow-lg`}
+          className={`flex flex-row p-4 rounded-md cursor-pointer justify-center items-center gap-4 text-green-500 px-20 shadow-lg`}
         >
           <a
             href="https://www.instagram.com/kertaaji_v/?igsh=MW00dWM0dHk1aHRv"
