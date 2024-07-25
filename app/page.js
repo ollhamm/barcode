@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-slate-200">
-      <div className="flex flex-col items-center mt-[-300px] opacity-60">
+      <div className="flex flex-col items-center mt-[-80px] opacity-60">
         <Image
           src={"/images/logo-amat.png"}
           alt="logo"
