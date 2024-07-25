@@ -2,7 +2,7 @@
 import QRCode from "qrcode.react";
 
 export default function Home() {
-  const qrValue = "";
+  const qrValue = "https://karang-taruna-kertaaji.vercel.app/";
   return (
     <div
       style={{
